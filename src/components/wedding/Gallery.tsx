@@ -1,10 +1,10 @@
 import { motion } from "framer-motion";
 import { SectionHeading } from "./SectionHeading";
-import g1 from "@/assets/image1.png";
-import g2 from "@/assets/image2.png";
-import g3 from "@/assets/image3.jpeg";
-import g4 from "@/assets/image4.jpg";
-import g5 from "@/assets/image5.png";
+import g1 from "@/assets/coupleimages/couple-image-1.jpg";
+import g2 from "@/assets/coupleimages/couple-image-2.jpg";
+import g3 from "@/assets/coupleimages/couple-image-3.jpg";
+import g4 from "@/assets/coupleimages/couple-image-5.jpg";
+import g5 from "@/assets/coupleimages/couple-image-4.jpg";
 const images = [
   { src: g1, caption: "Jasmine & marigold", span: "row-span-2" },
   { src: g2, caption: "Sacred deepam", span: "" },

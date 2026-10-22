@@ -63,22 +63,22 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
 
-      { title: "Virat Kohli & Anushka Sharma · A Wedding Invitation" },
+      { title: "Deepak & Nivedha · A Wedding Invitation" },
       {
         name: "description",
         content:
-          "Together with their families, Kowshik Raj & Niroopa Vijayakumar invite you to celebrate their  wedding on 6–7 September in Trichy.",
+          "Together with their families, Deepak & Nivedha invite you to celebrate their wedding on 19–20 November 2026 at Arangan Arangam Wedding Hall, Srirangam, Trichy.",
       },
 
       // Open Graph
       {
         property: "og:title",
-        content: "Virat Kohli & Anushka Sharma · A Wedding Invitation",
+        content: "Deepak & Nivedha · A Wedding Invitation",
       },
       {
         property: "og:description",
         content:
-          "Celebrate our Wedding — 6–7 September at Crystal Convention Centre, Trichy.",
+          "Celebrate our Wedding — Reception 19 November, Wedding 20 November 2026 at Arangan Arangam Wedding Hall, Srirangam, Trichy.",
       },
       {
         property: "og:image",
@@ -108,11 +108,11 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       },
       {
         name: "twitter:title",
-        content: "Virat Kohli & Anushka Sharma · A Wedding Invitation",
+        content: "Deepak & Nivedha · A Wedding Invitation",
       },
       {
         name: "twitter:description",
-        content: "Celebrate our Wedding — 6–7 September in Trichy.",
+        content: "Celebrate our Wedding — 19–20 November 2026 in Trichy.",
       },
       {
         name: "twitter:image",
@@ -145,7 +145,6 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
   notFoundComponent: NotFoundComponent,
   errorComponent: ErrorComponent,
 });
-
 function RootShell({ children }: { children: ReactNode }) {
   return (
     <html lang="en">

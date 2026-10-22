@@ -1,15 +1,22 @@
 import { motion } from "framer-motion";
 import { Calendar, Clock, MapPin } from "lucide-react";
 import { SectionHeading } from "./SectionHeading";
-import coupleEvents from "@/assets/image2.png";
+import coupleEvents from "@/assets/coupleimages/couple-image-3.jpg";
 
 const events = [
   {
+    tag: "Reception",
+    title: "Reception",
+    date: "Thursday · 19 November 2026",
+    time: "From 7:00 PM onwards",
+    location: "Arangan Arangam Wedding Hall, Mambazhasalai, Srirangam, Trichy",
+  },
+  {
     tag: "Wedding Ceremony",
     title: "Marriage",
-    date: "Monday · 7 September 2026",
-    time: "Mugurtham · 9:00 – 10:30 AM",
-    location: "Crystal Convention Centre, Trichy",
+    date: "Friday · 20 November 2026",
+    time: "Mugurtham · 6:02 – 7:28 AM",
+    location: "Arangan Arangam Wedding Hall, Mambazhasalai, Srirangam, Trichy",
   },
 ];
 

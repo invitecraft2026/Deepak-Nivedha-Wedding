@@ -1,9 +1,10 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { useEffect, useState } from "react";
 import { SectionHeading } from "./SectionHeading";
-import coupleCountdown from "@/assets/image1.png";
+import coupleCountdown from "@/assets/coupleimages/couple-image-1.jpg";
 
-const TARGET = new Date("2026-09-07T09:00:00+05:30").getTime();
+// Wedding (Muhurtham) starts 20 Nov 2026, 6:02 AM IST
+const TARGET = new Date("2026-11-20T06:02:00+05:30").getTime();
 
 function diff(now: number) {
   const d = Math.max(0, TARGET - now);

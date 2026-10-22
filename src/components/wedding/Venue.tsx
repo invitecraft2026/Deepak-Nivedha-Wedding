@@ -1,11 +1,11 @@
 import { motion } from "framer-motion";
 import { MapPin, Navigation } from "lucide-react";
 import venue from "@/assets/venue.jpg";
-import coupleSecondary from "@/assets/image3.jpeg";
+import coupleSecondary from "@/assets/coupleimages/couple-image-4.jpg";
 import { SectionHeading } from "./SectionHeading";
 
 const VENUE_QUERY = encodeURIComponent(
-  "Crystal Convention Centre, SF No 108/2 and 108/3, Madurai Road, Kallikudi Village, South, Manikandam, Trichy - 620012",
+  "Arangan Arangam Wedding Hall, Mambazhasalai, Srirangam, Trichy",
 );
 
 export function Venue() {
@@ -42,7 +42,7 @@ export function Venue() {
           <div className="relative min-h-[380px] overflow-hidden">
             <img
               src={venue}
-              alt="Crystal Convention Centre"
+              alt="Arangan Arangam Wedding Hall"
               className="h-full w-full object-cover"
               loading="lazy"
             />
@@ -71,11 +71,10 @@ export function Venue() {
               Reception & Ceremony
             </p>
             <h3 className="font-serif text-4xl leading-tight text-deep-brown md:text-5xl">
-              Crystal <span className="italic text-gradient-gold">Convention Centre</span>
+              Arangan Arangam <span className="italic text-gradient-gold">Wedding Hall</span>
             </h3>
             <p className="text-deep-brown/75 leading-relaxed">
-              SF No 108/2 and 108/3, Madurai Road, Kallikudi Village, South, Manikandam, Trichy –
-              620012.
+              Arangan Arangam Wedding Hall, Mambazhasalai, Srirangam, Trichy.
             </p>
             <div className="flex flex-wrap items-center gap-3 pt-2">
               <a

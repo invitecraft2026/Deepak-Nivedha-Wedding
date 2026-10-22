@@ -27,6 +27,7 @@ export function Hero() {
       <motion.div style={{ y, scale }} className="absolute inset-0">
         <img
           src={heroimage}
+          alt="Deepak and Nivedha"
           className="h-full w-full object-cover"
           style={{ filter: "blur(6px)" }}
         />
@@ -73,7 +74,7 @@ export function Hero() {
           transition={{ duration: 1.8, delay: 0.6, ease: [0.19, 1, 0.22, 1] }}
           className="mt-6 font-script text-[clamp(3rem,9vw,6.5rem)] leading-[0.9] text-deep-brown"
         >
-         Virat Kohli
+          Deepak
         </motion.h1>
 
         {/* <motion.p
@@ -104,7 +105,7 @@ export function Hero() {
           transition={{ duration: 1.8, delay: 0.9, ease: [0.19, 1, 0.22, 1] }}
           className="font-script text-[clamp(3rem,9vw,6.5rem)] leading-[0.9] text-deep-brown"
         >
-          Anushka Sharma
+          Nivedha
         </motion.h1>
 
         {/* <motion.p
@@ -124,7 +125,7 @@ export function Hero() {
           transition={{ delay: 1.8, duration: 1 }}
           className="mt-8 font-serif text-xl italic text-deep-brown drop-shadow-lg md:text-2xl"
         >
-          Two souls · One celebration · Wedding
+          Two souls · Two celebration · Wedding · Reception
         </motion.p>
       </motion.div>
 
