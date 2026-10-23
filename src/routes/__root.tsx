@@ -82,7 +82,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       },
       {
         property: "og:image",
-        content: "https://template1.invitecraft2026.workers.dev/image1.png",
+        content: "https://deepak-nivedha-wedding.invitecraft2026.workers.dev/couple-image-4.jpg",
       },
       {
         property: "og:image:width",
@@ -94,7 +94,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       },
       {
         property: "og:url",
-        content: "https://template1.invitecraft2026.workers.dev/image1.png",
+        content: "https://deepak-nivedha-wedding.invitecraft2026.workers.dev/couple-image-4.jpg",
       },
       {
         property: "og:type",
@@ -116,7 +116,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       },
       {
         name: "twitter:image",
-        content: "https://template1.invitecraft2026.workers.dev/image1.png",
+        content: "https://deepak-nivedha-wedding.invitecraft2026.workers.dev/couple-image-4.jpg",
       },
     ],
 
